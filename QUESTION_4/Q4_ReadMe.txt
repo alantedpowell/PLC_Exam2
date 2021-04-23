@@ -1,0 +1,5 @@
+The naming and structuring feature of the compilation process is what allows us to determine the reference environment for any (object?) at any given line of code in the program. If there is scope involved in the program, the compilation process will give it name. It is then placed in a structure similar to a tree with cascading (similar to SCSS) features. Much like when developing a website with SCSS, the cascading feature makes it super easy to identify the position of the element being styled. Scope is the same way, the tree like structure allows it to be really easy to identify what position the the object is in with relation to potential other scopes.
+
+The main takeaway I've gathered from this topic is this: 
+Dynamic Scoping = Reference environment is local (Google locating all the stores nearby)
+Static Scoping = Reference environment is within the (for example) method or function (Google locating a specific item in the store)
